@@ -1,98 +1,137 @@
-<footer id="footer" class="footer color-bg">
-	  <div class="links-social inner-top-sm">
-        <div class="container">
-            <div class="row">
-            	<div class="col-xs-12 col-sm-6 col-md-4">
-            		 <!-- ============================================================= CONTACT INFO ============================================================= -->
-<div class="contact-info">
-    <div class="footer-logo">
-        <div class="logo">
-            <a href="index.php">
-                
-<h3>Shopping Portal</h3>
-            </a>
-        </div><!-- /.logo -->
-    
-    </div><!-- /.footer-logo -->
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<div class="container my-5">  
+<!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-dark"
+          style="background-color: #ffffff; border-top: 1px solid #e0e0e0;"
+          >
+    <!-- Grid container -->
+    <div class="p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row px-4">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+          Shoping portal
+            </h6>
+            <p class="font-weight-bold">
+              Shop with confidence and discover <br>your next favorite thing.
+            </p>
+          </div>
+          <!-- Grid column -->
 
-    <div class="module-body m-t-20">
-        <p class="about-us"> Nam libero tempore, cum soluta nobis est ses  eligendi optio cumque cum soluta nobis est ses  eligendi optio cumque.</p>
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Categories</h6>
+            <p class="font-weight-bold">
+              <a class="text-dark">Books</a>
+            </p>
+            <p class="font-weight-bold">
+              <a class="text-dark">Electronics</a>
+            </p>
+            <p class="font-weight-bold">
+              <a class="text-dark">Furniture</a>
+            </p>
+            <p class="font-weight-bold">
+              <a class="text-dark">Fashion</a>
+            </p>
+          </div>
+          <!-- Grid column -->
 
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p class="font-weight-bold">
+              <a class="text-dark">Your Account</a>
+            </p>
+            <p class="font-weight-bold">
+              <a class="text-dark">Become an Affiliate</a>
+            </p>
+            <p class="font-weight-bold">
+              <a class="text-dark">Shipping Rates</a>
+            </p>
+            <p class="font-weight-bold">
+              <a class="text-dark">Help</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p class="font-weight-bold"><i class="fas fa-home mr-3"></i> Nashik, Maharashtra, IN</p>
+            <p class="font-weight-bold"><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+            <p class="font-weight-bold"><i class="fas fa-phone mr-3"></i> + 91 234 567 88</p>
+            <p class="font-weight-bold"><i class="fas fa-print mr-3"></i> + 91 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3">
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center px-4">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3 font-weight-bold">
+              © 2025 Copyright:
+              <a class="text-dark" href="https://mdbootstrap.com/"
+                 >Shoping portal</a
+                >
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a
+               class="btn btn-floating m-1 text-white"
+               style="background-color: #3b5998; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;"
+               role="button"
+               ><i class="fab fa-facebook fa-lg"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-floating m-1 text-white"
+               style="background-color: #55acee; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;"
+               role="button"
+               ><i class="fab fa-x-twitter fa-lg"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-floating m-1 text-white"
+               style="background-color:rgb(130, 134, 134); width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;"
+               role="button"
+               ><i class="fab fa-google fa-lg"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-floating m-1 text-white"
+               style="background-color: #ac2bac; width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;"
+               role="button"
+               ><i class="fab fa-instagram fa-lg"></i
+              ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
     </div>
-
-</div>          	</div>
-
-            	<div class="col-xs-12 col-sm-6 col-md-4">
-<div class="contact-timing">
-	<div class="module-heading">
-		<h4 class="module-title">opening time</h4>
-	</div><!-- /.module-heading -->
-
-	<div class="module-body outer-top-xs">
-		<div class="table-responsive">
-			<table class="table">
-				<tbody>
-					<tr><td>Monday-Friday:</td><td class="pull-right">08.00 To 18.00</td></tr>
-					<tr><td>Saturday:</td><td class="pull-right">09.00 To 20.00</td></tr>
-					<tr><td>Sunday:</td><td class="pull-right">10.00 To 20.00</td></tr>
-				</tbody>
-			</table>
-		</div><!-- /.table-responsive -->
-	</div><!-- /.module-body -->
-</div><!-- /.contact-timing -->
-<!-- ============================================================= CONTACT TIMING : END ============================================================= -->            	</div><!-- /.col -->
-
-            	<div class="col-xs-12 col-sm-6 col-md-4">
-            		 <!-- ============================================================= INFORMATION============================================================= -->
-<div class="contact-information">
-	<div class="module-heading">
-		<h4 class="module-title">information</h4>
-	</div><!-- /.module-heading -->
-
-	<div class="module-body outer-top-xs">
-        <ul class="toggle-footer" style="">
-            <li class="media">
-                <div class="pull-left">
-                     <span class="icon fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
-                    </span>
-                </div>
-                <div class="media-body">
-                    <p>New Delhi, Delhi</p>
-                </div>
-            </li>
-
-              <li class="media">
-                <div class="pull-left">
-                     <span class="icon fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
-                    </span>
-                </div>
-                <div class="media-body">
-                    <p>(011) 000000000000<br>(011) 000000000000</p>
-                </div>
-            </li>
-
-              <li class="media">
-                <div class="pull-left">
-                     <span class="icon fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                    </span>
-                </div>
-                <div class="media-body">
-                    <span><a href="#">test@test.com</a></span>
-                </div>
-            </li>
-              
-            </ul>
-    </div><!-- /.module-body -->
-</div><!-- /.contact-timing -->
-<!-- ============================================================= INFORMATION : END ============================================================= -->            	</div><!-- /.col -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </div><!-- /.links-social -->
-
-    
+    <!-- Grid container -->
+  </footer>
+  <!-- Footer -->
+  </div>

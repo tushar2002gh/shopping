@@ -1,4 +1,7 @@
-            <div id="layoutSidenav_nav">
+<?php 
+session_start();
+?>
+<div id="layoutSidenav_nav">
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
@@ -120,7 +123,7 @@ $cancelledorders=$results['cancelledorders'];
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Logged in as:</div>
-                        <?php echo $_SESSION['alogin'];?>
+                        <?php if(isset($_SESSION['alogin'])) { echo $_SESSION['alogin']; } else { echo '<a href="index.php">Login</a>'; } ?>
                     </div>
                 </nav>
             </div>

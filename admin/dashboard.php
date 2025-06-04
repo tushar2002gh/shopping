@@ -2,7 +2,8 @@
 include_once('includes/config.php');
 if(strlen( $_SESSION["aid"])==0)
 {   
-header('location:logout.php');
+header('location:dashboard.php');
+} elseif(isset($_SESSION['aid']) && $_SESSION['aid'] == 1) {
 } else { 
 //Dashboard COunt
 $ret=mysqli_query($con,"select count(id) as totalorders,

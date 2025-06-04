@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 include('include/config.php');
@@ -55,7 +54,7 @@ if(isset($_GET['del']))
 									<br />
 
 							
-								<table cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display" width="100%">
+								<table cellpadding="0" cellspacing="0" border="0" class="table table-bordered table-striped datatable-1 display" style="width:100%;">
 									<thead>
 										<tr>
 											<th>#</th>
@@ -64,7 +63,7 @@ if(isset($_GET['del']))
 											<th>Contact no</th>
 											<th>Shippping Address/City/State/Pincode </th>
 											<th>Billing Address/City/State/Pincode </th>
-											<th>Reg. Date </th>
+											<!-- <th>Reg. Date </th> -->
 										
 										</tr>
 									</thead>
@@ -82,7 +81,7 @@ while($row=mysqli_fetch_array($query))
 											<td> <?php echo htmlentities($row['contactno']);?></td>
 											<td><?php echo htmlentities($row['shippingAddress'].",".$row['shippingCity'].",".$row['shippingState']."-".$row['shippingPincode']);?></td>
 											<td><?php echo htmlentities($row['billingAddress'].",".$row['billingCity'].",".$row['billingState']."-".$row['billingPincode']);?></td>
-											<td><?php echo htmlentities($row['regDate']);?></td>
+											<!-- <td><?php echo htmlentities($row['regDate']);?></td> -->
 											
 										<?php $cnt=$cnt+1; } ?>
 										

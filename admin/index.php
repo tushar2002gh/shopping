@@ -10,11 +10,11 @@ $ret=mysqli_query($con,"SELECT * FROM admin WHERE username='$username' and passw
 $num=mysqli_fetch_array($ret);
 if($num>0)
 {
-$extra="change-password.php";
+$extra="todays-orders.php";
 $_SESSION['alogin']=$_POST['username'];
 $_SESSION['id']=$num['id'];
 
-header("location:change-password.php");
+header("location:todays-orders.php");
 exit();
 }
 else

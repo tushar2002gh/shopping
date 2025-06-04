@@ -67,16 +67,16 @@ include('includes/config.php');
 				<div class="col-md-12">
 	<h2>Track your Order</h2>
 	<span class="title-tag inner-top-vs">Please enter your Order ID in the box below and press Enter. This was given to you on your receipt and in the confirmation email you should have received. </span>
-	<form class="register-form outer-top-xs" role="form" method="post" action="order-details.php">
-		<div class="form-group">
-		    <label class="info-title" for="exampleOrderId1">Order ID</label>
-		    <input type="text" class="form-control unicase-form-control text-input" name="orderid" id="exampleOrderId1" >
+	<form class="register-form outer-top-xs" role="form" method="post" action="order-details.php" style="max-width: 500px; margin: 0 auto; padding: 20px; background: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+		<div class="form-group" style="margin-bottom: 20px;">
+		    <label class="info-title" for="exampleOrderId1" style="font-weight: 600; color: #333; margin-bottom: 8px; display: block;">Order ID</label>
+		    <input type="text" class="form-control unicase-form-control text-input" name="orderid" id="exampleOrderId1" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
 		</div>
-	  	<div class="form-group">
-		    <label class="info-title" for="exampleBillingEmail1">Registered Email</label>
-		    <input type="email" class="form-control unicase-form-control text-input" name="email" id="exampleBillingEmail1" >
+	  	<div class="form-group" style="margin-bottom: 20px;">
+		    <label class="info-title" for="exampleBillingEmail1" style="font-weight: 600; color: #333; margin-bottom: 8px; display: block;">Registered Email</label>
+		    <input type="email" class="form-control unicase-form-control text-input" name="email" id="exampleBillingEmail1" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
 		</div>
-	  	<button type="submit" name="submit" class="btn-upper btn btn-primary checkout-page-button">Track</button>
+	  	<button type="submit" name="submit" class="btn-upper btn btn-primary checkout-page-button" style="width: 100%; padding: 12px; font-size: 16px; font-weight: 600; background-color: #007bff; border: none; border-radius: 4px; color: white; cursor: pointer; transition: background-color 0.3s ease;">Track</button>
 	</form>	
 </div>			</div><!-- /.row -->
 		</div><!-- /.sigin-in-->
